@@ -1,0 +1,54 @@
+header{
+    background-color: rgb(163, 163, 163);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+body{
+    margin: 0;
+    font-family: 'Amatic SC', cursive
+}
+
+nav a {
+    color:rgb(118, 85, 60);
+    font-size: 20px;
+    margin: 20px;
+}
+
+button{
+    padding: 10px 40px;
+    border-radius: 50px;
+    background-color: black;
+    color: blanchedalmond;
+    border:rgb(0, 0, 0) ;
+    font-size: 20px;
+    font-family: 'Amatic SC';
+    cursor: pointer;
+    transition: .1s;
+}
+
+button:hover{
+    background-color: tomato;
+    transform: skale(0.5);
+}
+
+div{
+    text-align: center;
+    padding: 70px;
+    background-image: url(pompa.jpeg);
+    background-size: cover;
+}
+
+h1{
+    color: black;
+    font-size: 50px;
+}
+
+p{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
