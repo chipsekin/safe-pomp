@@ -1,5 +1,5 @@
 header{
-    background-color: rgb(163, 163, 163);
+    background-color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -20,17 +20,17 @@ button{
     padding: 10px 40px;
     border-radius: 50px;
     background-color: black;
-    color: blanchedalmond;
+    color: rgb(255, 153, 0);
     border:rgb(0, 0, 0) ;
     font-size: 20px;
     font-family: 'Amatic SC';
     cursor: pointer;
-    transition: .1s;
+    transition: .5s;
 }
 
 button:hover{
     background-color: tomato;
-    transform: skale(0.5);
+    transform: sсale(1.1);
 }
 
 div{
@@ -41,14 +41,48 @@ div{
 }
 
 h1{
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 50px;
 }
 
 p{
-    color: black;
+    color: rgb(243, 243, 243);
     font-size: 20px;
     font-weight: bold;
 }
 
+footer{
+    background-color: black;
+}
 
+footer p{
+    margin: 0;
+    padding: 50px;
+}
+
+@media(max-width: 500px){
+    header{
+        display: block;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    nav{
+        margin: 10px 0;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 18px;
+    }
+    div{
+        padding: 20px 10px;
+    }
+}
+
+button a{
+    text-decoration:rgb(0, 0, 0);
+    color:rgb(255, 166, 0);
+}
