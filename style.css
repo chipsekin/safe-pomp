@@ -29,12 +29,12 @@ button{
 }
 
 button:hover{
-    background-color: tomato;
-    transform: sсale(1.1);
+    background-color: rgb(223, 152, 0);
+    transform: sсale(2.0);
 }
 
 div{
-    text-align: center;
+    text-align: left;
     padding: 70px;
     background-image: url(pompa.jpeg);
     background-size: cover;
@@ -46,13 +46,13 @@ h1{
 }
 
 p{
-    color: rgb(243, 243, 243);
+    color: rgb(27, 119, 189);
     font-size: 20px;
     font-weight: bold;
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 
 footer p{
