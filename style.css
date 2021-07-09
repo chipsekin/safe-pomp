@@ -11,7 +11,7 @@ body{
 }
 
 nav a {
-    color:rgb(118, 85, 60);
+    color:rgb(0, 0, 0);
     font-size: 20px;
     margin: 20px;
 }
@@ -46,7 +46,7 @@ h1{
 }
 
 p{
-    color: rgb(27, 119, 189);
+    color: rgb(68, 0, 255);
     font-size: 20px;
     font-weight: bold;
 }
@@ -85,4 +85,54 @@ footer p{
 button a{
     text-decoration:rgb(0, 0, 0);
     color:rgb(255, 166, 0);
+}
+
+div{
+    background-image: url(skar.jpg);
+}
+
+button{
+    padding: 15px 40px;
+    border-radius: 50px;
+    background-color: rgb(10, 112, 31);
+    color: rgb(255, 0, 0);
+    border: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Amatic SC';
+    cursor: pointer;
+    transition: .5s;
+}
+
+button:hover{
+    background-color: rgb(238, 255, 0);
+    transform: sсale(20.0);
+}
+
+header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p{
+    margin: 0;
+    padding: 50px;
+}
+
+button{
+    padding: 15px -40px;
+    border-radius: 50px;
+    background-color: rgb(10, 112, 31);
+    color: rgb(255, 0, 0);
+    border: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: 'Amatic SC';
+    cursor: pointer;
+    transition: .4s;
+}
+
+footer p{
+    margin: 0;
+    padding: 50px;
 }
